@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Navya K R Portfolio Website">
+    <title>Navya K R - Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Icons (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <img src="images/profile.jpg" alt="Navya K R">
+            <h1>Hi, I'm <span>NAVYA K R</span></h1>
+            <p>Java Developer | Backend Developer | AI/ML Enthusiast</p>
+            <div class="social-links">
+                <a href="https://github.com/Navya0019" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/navya-k-r" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:navyakr23@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I'm an aspiring software developer with a strong foundation in Java and Python, focusing on backend development and API integration using Spring Boot. 
+                    I have hands-on experience in machine learning, working on projects related to AI/ML like a diet-suggesting chatbot and kidney stone detection model. 
+                    I am currently pursuing my MCA and have a B.Sc. in Mathematics.
+                </p>
+                <p>
+                    I'm passionate about turning complex problems into elegant solutions and enjoy collaborating with cross-functional teams to create high-quality software.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>Languages</h3>
+                <p>Java, Python, C</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-server"></i>
+                <h3>Frameworks</h3>
+                <p>Spring Boot, scikit-learn</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>Database</h3>
+                <p>MySQL</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Soft Skills</h3>
+                <p>Problem-Solving, Team Collaboration, Analytical Thinking</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Salary Prediction (Python)</h3>
+            <p>Built a machine learning model using linear regression to predict salaries based on years of experience.</p>
+            <a href="https://github.com/Navya0019/salary-prediction" target="_blank"><i class="fas fa-external-link-alt"></i> GitHub Repo</a>
+        </div>
+        <div class="project">
+            <h3>Chatbot for Diet Plan Suggestions (IBM Watsonx Assistant)</h3>
+            <p>Developed a chatbot using IBM Watsonx Assistant to suggest personalized diet plans.</p>
+            <a href="https://cloud-object-storage-cos-static-web-hosting-7se.s3.jp-tok.cloud-object-storage.appdomain.cloud/The%20Plateful/index.html" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+        </div>
+        <div class="project">
+            <h3>Kidney Stone Detection (Machine Learning)</h3>
+            <p>Developed a machine learning model for kidney stone detection using IBM Watson Studio.</p>
+            <!-- Add the relevant link -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="thankYouMessage" style="display:none;">Thank you for your message!</p>
+    </section>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
